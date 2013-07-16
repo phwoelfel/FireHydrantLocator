@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_authorize_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oauth_authorize_app" />
+
+        <Button
+            android:id="@+id/button_get_oauth_token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oauth_get_token" />
+
+        <EditText
+            android:id="@+id/edittext_oauth_method"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="16424" >
+        </EditText>
+
+        <Button
+            android:id="@+id/button_test_oauth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oauth_test" />
+
+        <Button
+            android:id="@+id/button_get_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get user" />
+        
+        <Button
+            android:id="@+id/button_create_changeset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="create changeset" />
+
+        <Button
+            android:id="@+id/button_get_changeset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get changeset" />
+
+        <Button
+            android:id="@+id/button_close_changeset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="close changeset" />
+        
+        <Button
+            android:id="@+id/button_get_node"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get node" />
+
+        <TextView
+            android:id="@+id/text_oauthgui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oauth_instructions" />
+    </LinearLayout>
+
+</ScrollView>

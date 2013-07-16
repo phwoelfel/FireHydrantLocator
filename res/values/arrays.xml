@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hydrant_types">
+		<item>@string/hydrant_type_pillar</item>
+		<item>@string/hydrant_type_underground</item>
+		<item>@string/hydrant_type_wall</item>
+		<item>@string/hydrant_type_pond</item>
+	</string-array>
+	
+    <string-array name="hydrant_positions">
+        <item></item>
+		<item>@string/hydrant_position_green</item>
+		<item>@string/hydrant_position_sidewalk</item>
+		<item>@string/hydrant_position_lane</item>
+		<item>@string/hydrant_position_parkinglot</item>
+	</string-array>
+</resources>

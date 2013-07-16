@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Firehydrant Locator</string>
+    <string name="menu_export_file">Export to File</string>
+    <string name="menu_export_xml">Export to XML File</string>
+    <string name="menu_import_file">Import from File</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_about">About</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">FireHydrant Locator</string>
+    <string name="savewithmenu">Save using the menu!</string>
+    
+    <string name="hydrant">Firehydrant</string>
+    
+    <string name="button_add_hydrant">Add hydrant</string>
+    <string name="button_delete_hydrant">Delete hydrant</string>
+    <string name="button_edit_hydrant">Edit hydrant</string>
+    <string name="button_show_hydrant">Show hydrant</string>
+    <string name="firehydrant_listitem">Firehydrant</string>
+    
+    <string name="optional">Optional:</string>
+    <string name="add_hydrant_title">Add Hydrant</string>
+    <string name="add_hydrant_loc">Location</string>
+    <string name="add_hydrant_lat">Latitude</string>
+    <string name="add_hydrant_lon">Longitude</string>
+    <string name="add_hydrant_type">Type</string>
+    <string name="add_hydrant_name">Name</string>
+    <string name="add_hydrant_position">Position</string>
+    <string name="add_hydrant_diameter">Diameter (in mm)</string>
+    <string name="add_hydrant_count">Count</string>
+    <string name="add_hydrant_reservoir">Reservoir (in m^3)</string>
+    <string name="add_hydrant_pressure">Pressure (in bar)</string>
+    <string name="edit_hydrant_update_location">Update Location</string>
+    <string name="edit_hydrant_show_location">Show Location</string>
+    
+    <string name="hydrant_type_pillar">Pillar</string>
+    <string name="hydrant_type_underground">Underground</string>
+    <string name="hydrant_type_wall">Wall</string>
+    <string name="hydrant_type_pond">Pond</string>
+    
+    <string name="hydrant_position_green">Green</string>
+    <string name="hydrant_position_sidewalk">Sidewalk</string>
+    <string name="hydrant_position_parkinglot">Parking Lot</string>
+    <string name="hydrant_position_lane">Lane</string>
+    
+    <string name="error_filenotfound">File not found!</string>
+    <string name="error_nofile">Please select a file!</string>
+    <string name="error_nolocation">No Location found!</string>
+    <string name="exported_to">Exported to </string>
+    <string name="imported_from">Imported from </string>
+    <string name="location_found">Location found: </string>
+    <string name="location_updated">Location updated!</string>
+    <string name="hydrant_updated">Firehydrant updated!</string>
+    
+    <string name="delete_hydrant_title">Delete Hydrant</string>
+    <string name="delete_hydrant_msg">Do you really want to delete this hydrant?</string>
+    
+    <string name="title_activity_about">About</string>
+    <string name="about_text" type="text/html">
+		<b>Firehydrant Locator</b>\n
+		Created by\n
+		Philip Woelfel\n
+		philip@woelfel.at\n
+		philip.woelfel.at\n
+		\n
+		\n
+		Silk icon set 1.3 by\n
+		Mark James\n
+		http://www.famfamfam.com/lab/icons/silk/\n
+		</string>
+		
+    
+    
+    
+    
+    <string name="error_no_temp_token">No temporary token found! Please get temporary token first!</string>
+    <string name="error_no_token">No token found! Please authorize the app first!</string>
+    <string name="error_api">There was an error accessing the API! Please try again!</string>
+    <string name="success_api">API Call successfull!</string>
+    
+    <string name="prefs_key_oauth_token">key_token</string>
+    <string name="prefs_key_oauth_token_secret">key_token_secret</string>
+    <string name="prefs_key_oauth_gettoken">key_gettoken</string>
+    <string name="prefs_oauth_token_title">OAuth Token</string>
+    <string name="prefs_oauth_token_dialog_title">OAuth Token</string>
+    <string name="prefs_oauth_token_dialog_message">Change OAuth Token</string>
+    <string name="prefs_oauth_token_secret_title">OAuth Token Secret</string>
+    <string name="prefs_oauth_token_secret_dialog_title">OAuth Token Secret</string>
+    <string name="prefs_oauth_token_secret_dialog_message">Change OAuth Token Secret</string>
+    <string name="prefs_oauth_get_token_title">Get OAuth Token</string>
+    
+    <string name="oauth_authorize_app">Authorize App</string>
+    <string name="oauth_get_token">Get OAuth Token</string>
+    <string name="oauth_token_saved">OAuth Token saved!</string>
+    <string name="oauth_test">Test OAuth Token</string>
+    <string name="oauth_test_ok">Test Successful! Got response: </string>
+    <string name="oauth_test_fail">Test Failed!</string>
+    <string name="api_create_node">Create Node</string>
+    <string name="api_create_changeset">Create Changeset</string>
+    <string name="api_close_changeset">Close Changeset</string>
+    <string name="oauth_instructions">Press the button to get your OAuth Token to use the OpenStreetMap API. You will be redirected to openstreetmap.org to connect the app to your account.</string>
+    
+</resources>

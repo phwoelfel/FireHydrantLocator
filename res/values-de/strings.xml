@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hydranten Ortung</string>
+    <string name="menu_export_file">Datei Exportieren</string>
+    <string name="menu_export_xml">XML-Datei Exportieren</string>
+    <string name="menu_import_file">Datei Importieren</string>
+    <string name="menu_save">Speichern</string>
+    <string name="menu_about">Info</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="title_activity_main">Hydranten Ortung</string>
+    <string name="savewithmenu">Mittels Menü speichern!</string>
+    
+    <string name="hydrant">Hydrant</string>
+    
+    <string name="button_add_hydrant">Hydrant hinzufügen</string>
+    <string name="button_delete_hydrant">Hydrant löschen</string>
+    <string name="button_edit_hydrant">Hydrant bearbeiten</string>
+    <string name="button_show_hydrant">Hydrant anzeigen</string>
+    <string name="firehydrant_listitem">Hydrant</string>
+    
+    <string name="optional">Optional:</string>
+    <string name="add_hydrant_title">Hydrant hinzufuegen</string>
+    <string name="add_hydrant_loc">Standort</string>
+    <string name="add_hydrant_lat">Breitengrad</string>
+    <string name="add_hydrant_lon">Längengrad</string>
+    <string name="add_hydrant_type">Typ</string>
+    <string name="add_hydrant_name">Name</string>
+    <string name="add_hydrant_position">Position</string>
+    <string name="add_hydrant_diameter">Durchmesser (in mm)</string>
+    <string name="add_hydrant_count">Anzahl</string>
+    <string name="add_hydrant_reservoir">Fassungsvermoegen (in m^3)</string>
+    <string name="add_hydrant_pressure">Druck (in bar)</string>
+    <string name="edit_hydrant_update_location">Standort erneuern</string>
+    <string name="edit_hydrant_show_location">Standort anzeigen</string>
+    
+    <string name="hydrant_type_pillar">Überflur</string>
+    <string name="hydrant_type_underground">Unterflur</string>
+    <string name="hydrant_type_wall">Wand</string>
+    <string name="hydrant_type_pond">offenes Gewässer</string>
+    
+    <string name="hydrant_position_green">Wiese</string>
+    <string name="hydrant_position_sidewalk">Gehsteig</string>
+    <string name="hydrant_position_parkinglot">Parkplatz</string>
+    <string name="hydrant_position_lane">Straße</string>
+
+    <string name="error_filenotfound">Datei nicht gefunden!</string>
+    <string name="error_nofile">Bitte Datei wählen!</string>
+    <string name="error_nolocation">Standort konnte nicht gefunden werden!</string>
+    <string name="exported_to">Exportiert nach </string>
+    <string name="imported_from">Importiert von </string>
+    <string name="location_found">Standort gefunden: </string>
+    <string name="location_updated">Standort upgedated!</string>
+    <string name="hydrant_updated">Hydrant upgedated!</string>
+    
+    <string name="delete_hydrant_title">Hydrant löschen?</string>
+    <string name="delete_hydrant_msg">Willst du den Hydrant wirklich löschen?</string>
+    
+    <string name="title_activity_about">Info</string>
+    <string name="about_text" type="text/html">
+		<b>Hydranten Ortung</b>\n
+		Entwickelt von\n
+		Philip Wölfel\n
+		philip@woelfel.at\n
+		philip.woelfel.at\n
+		\n
+		\n
+		Silk icon set 1.3 by\n
+		Mark James\n
+		http://www.famfamfam.com/lab/icons/silk/\n
+		</string>
+</resources>

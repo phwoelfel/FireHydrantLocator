@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_export_file"
+        android:icon="@drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:title="@string/menu_export_file"/>
+    <item
+        android:id="@+id/menu_import_file"
+        android:icon="@drawable/ic_menu_archive"
+        android:orderInCategory="100"
+        android:title="@string/menu_import_file"/>
+    <item
+        android:id="@+id/menu_export_xml"
+        android:icon="@drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:title="@string/menu_export_xml"/>
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_menu_info_details"
+        android:orderInCategory="100"
+        android:title="@string/menu_about"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings"/>
+
+</menu>

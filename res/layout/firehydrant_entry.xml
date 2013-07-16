@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageButton
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/button_delete_hydrant"
+        android:src="@drawable/delete" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/button_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/button_delete"
+        android:contentDescription="@string/button_edit_hydrant"
+        android:src="@drawable/edit" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/button_show"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/button_edit"
+        android:contentDescription="@string/button_show_hydrant"
+        android:src="@drawable/show_map" >
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/label_hydrant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/button_show"
+        android:text="@string/firehydrant_listitem"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+</RelativeLayout>
